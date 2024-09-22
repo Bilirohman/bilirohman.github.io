@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kalkulator Sederhana">
+    <meta name="author" content="Bili 2024 NPM 18">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="./kalkulator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator Sederhana</h1>
+
+        <label for="bil1">Input Bilangan</label>
+        <input type="text" id="bil1" placeholder="Masukkan Bilangan Pertama">
+        <input type="text" id="bil2" placeholder="Masukkan Bilangan Kedua">
+
+        <div class="buttons">
+            <button onclick="hitung('+')">+</button>
+            <button onclick="hitung('-')">-</button>
+            <button onclick="hitung('*')">x</button>
+            <button onclick="hitung('/')">/</button>
+        </div>
+
+        <label for="hasil">Hasil:</label>
+        <input type="text" id="hasil" readonly>
+    </div>
+
+    <script src="./kalkulator.js"></script>
+</body>
+</html>

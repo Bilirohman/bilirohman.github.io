@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffeb78;
+}
+
+.biodata-container {
+    max-width: 100%;
+    margin: 30px 30px 30px 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #d4ae03;
+}
+
+.biodata-container p.NPM {
+    color: rgb(36, 95, 255);
+}
+
+.biodata-container ul li {
+    color: rgb(36, 95, 255);
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+.university-link {
+    text-align: center;
+}
+
+.university-link a {
+    color: #d4ae03;
+    text-decoration: none;
+}
+
+table {
+    width: 35%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d4ae03;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
